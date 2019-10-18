@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>intento xD
+    </title>
+</head>
+<body>
+    <h2>Artículo:</h2>
+    <div>
+        <div>
+            <label for="codigo">Código:</label>
+            <input type="number" id="codigo">
+        </div>
+        <br>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre"> 
+        </div>
+        <br>
+        <div>
+            <label for="precio">Precio: $</label>
+            <input type="number" id="precio">
+        </div>
+        <br>
+        <div>
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad">
+        </div>
+        <br>
+        <div>
+            <label for="descripcion">Descripcion:</label>
+            <textarea id="descripcion" cols="20" rows="2"></textarea>
+        </div>
+        <br>
+        <div>
+            <button type="button" id="btnAgregar">Agregar Artículo</button>
+        </div>
+        <br>
+        <div>
+            <label for="codigoBuscado">Codigo:</label>
+            <input type="number" id="codigoBuscado">
+            <button id="buscar" type="button">Buscar</button>
+        </div>
+        <div>
+            
+            <label for="codigoBurrado">Codigo:</label>
+            <input type="number" id="codigoBorrado">
+            <button id="borrar" type="button">borrar</button>
+        </div>
+
+
+        <h3>Artículos Comprados</h3>
+        <table id="tablaInfo" class="table">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+        </table>
+
+    <h4>toString</h4>
+    <p id="toString"></p>
+</body>
+<script src="main.js" type="module"></script>
+</html>
